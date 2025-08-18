@@ -1,0 +1,13 @@
+{
+  "cache": false,
+  "upgrade": true,
+  "interactive": true,
+  "jsonUpgraded": true,
+  "color": true,
+  "concurrency": 8,
+  "packageManager": "pnpm",
+  "format": ["group", "ownerChanged", "time"],
+  "workspaces": false,
+  "root": true,
+  "timeout": 9999999
+}

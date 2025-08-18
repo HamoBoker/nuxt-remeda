@@ -1,0 +1,58 @@
+{
+  "name": "nuxt-remeda",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.14.0",
+  "description": "Remeda for Nuxt",
+  "keywords": [
+    "nuxt",
+    "nuxt-module",
+    "remeda"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HamoBoker/nuxt-remeda"
+  },
+  "author": {
+    "name": "Hamo Boker",
+    "email": "hamo.boker@gmail.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/module.mjs",
+      "require": "./dist/module.mjs"
+    }
+  },
+  "main": "./dist/module.mjs",
+  "typesVersions": {
+    "*": {
+      ".": [
+        "./dist/types.d.mts"
+      ]
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "prepack": "nuxt-module-build build --stub && nuxi prepare playground && nuxt-module-build prepare",
+    "play": "nuxi dev playground",
+    "play:build": "nuxi build playground",
+    "play:prepare": "nuxt-module-build build --stub && nuxi prepare playground",
+    "semantic-release": "semantic-release"
+  },
+  "dependencies": {
+    "@nuxt/kit": "latest",
+    "remeda": "^2.30.0"
+  },
+  "devDependencies": {
+    "@nuxt/module-builder": "latest",
+    "@nuxtjs/eslint-config-typescript": "latest",
+    "@semantic-release/git": "^10.0.1",
+    "conventional-changelog-conventionalcommits": "^9.1.0",
+    "eslint": "latest",
+    "nuxt": "^4.0.3",
+    "semantic-release": "^24.2.7"
+  }
+}
