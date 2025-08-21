@@ -1,5 +1,5 @@
 <script setup>
-const text = _ToUpper('it works!')
+const text = RCapitalize('it works!')
 </script>
 <template>
   <div>{{ text }}</div>
