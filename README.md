@@ -8,7 +8,7 @@
    
 ## 💡 About
 
-[Remeda](https://remeda.com) auto-import module for [Nuxt](https://nuxtjs.org).
+[Remeda](https://remeda.com) auto-import module for [Nuxt](https://nuxtjs.org). Inspired by [nuxt-lodash](https://github.com/cipami/nuxt-lodash.git).
 
 ## 📦 Install
 
@@ -16,6 +16,14 @@
 
 ```bash
 npm i nuxt-remeda -D
+```
+
+```bash
+pnpm add nuxt-remeda -D
+```
+
+```bash
+yarn add nuxt-remeda -D
 ```
 
 2. Add it to the `modules` section of your `nuxt.config`:
@@ -32,7 +40,7 @@ Use any [Remeda](https://remeda.com) methods in your Nuxt application, they will
 
 ```html
 <script setup>
-  const text = useToUpper("it works!");
+  const text = useCapitalize("it works!");
 </script>
 
 <template>
@@ -56,19 +64,18 @@ Use any [Remeda](https://remeda.com) methods in your Nuxt application, they will
 export default defineNuxtConfig({
   modules: ["nuxt-remeda"],
   remeda: {
-    prefix: "_",
+    prefix: "R",
     prefixSkip: ["string"],
     upperAfterPrefix: false,
     exclude: ["map"],
     alias: [
-      ["camelCase", "stringToCamelCase"], // => stringToCamelCase
-      ["kebabCase", "stringToKebab"], // => stringToKebab
-      ["isDate", "isRemedaDate"], // => _isRemedaDate
-    ],
-  },
+      ['toCamelCase', 'stringToCamelCase'], // => stringToCamelCase
+      ['toKebabCase', 'stringToKebab'] // => stringToKebab
+    ]
+  }
 });
 ```
 
 ## 📄 License
 
-[MIT License](https://github.com/HamoBoker/nuxt-remeda/blob/master/LICENSE) © 2021-2022 - [Michal Čípa](https://github.com/HamoBoker)
+[MIT License](https://github.com/HamoBoker/nuxt-remeda/blob/master/LICENSE) © 2024-2025 - [Hamo Boker](https://github.com/HamoBoker)
