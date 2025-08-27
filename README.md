@@ -1,9 +1,15 @@
  <h1>Remeda for Nuxt</h1>
  
 <p>
-  <a href="https://www.npmjs.com/package/nuxt-remeda"><img src="https://badgen.net/npm/v/nuxt-remeda" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/nuxt-remeda"><img src="https://badgen.net/npm/license/nuxt-remeda" alt="License"></a>
-  <a href="https://www.npmjs.com/package/nuxt-remeda"><img src="https://badgen.net/npm/types/nuxt-remeda" alt="Types"></a>
+  <a href="https://www.npmjs.com/package/nuxt-remeda">
+  <img src="https://img.shields.io/npm/v/nuxt-remeda.svg" alt="Version">
+</a>
+<a href="https://www.npmjs.com/package/nuxt-remeda">
+  <img src="https://img.shields.io/npm/l/nuxt-remeda.svg" alt="License">
+</a>
+<a href="https://www.npmjs.com/package/nuxt-remeda">
+  <img src="https://img.shields.io/npm/types/nuxt-remeda.svg" alt="Types">
+</a>
 </p>
    
 ## 💡 About
