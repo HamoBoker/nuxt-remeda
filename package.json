@@ -21,7 +21,9 @@
   "exports": {
     ".": {
       "import": "./dist/module.mjs",
-      "require": "./dist/module.mjs"
+      "require": "./dist/module.mjs",
+      "types": "./dist/types.d.mts",
+      "default": "./dist/module.mjs"
     }
   },
   "main": "./dist/module.mjs",
