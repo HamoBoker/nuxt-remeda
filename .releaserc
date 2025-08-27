@@ -9,6 +9,14 @@
         {
           "type": "feat",
           "section": "🚀 Features"
+        },
+        {
+          "type": "chore",
+          "section": "📦 Chores"
+        },
+        {
+          "type": "docs",
+          "section": "📚 Documentation"
         }
       ]
     },
