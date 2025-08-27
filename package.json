@@ -36,11 +36,12 @@
     "dist"
   ],
   "scripts": {
-    "prepack": "nuxt-module-build build --stub && nuxi prepare playground && nuxt-module-build prepare",
+    "prepack": "nuxt-module-build build",
     "play": "nuxi dev playground",
     "play:build": "nuxi build playground",
-    "play:prepare": "nuxt-module-build build --stub && nuxi prepare playground",
-    "semantic-release": "semantic-release"
+    "play:prepare": "nuxt-module-build build --stub && nuxi prepare playground && nuxt-module-build prepare",
+    "semantic-release": "semantic-release",
+    "test:types": "vue-tsc --noEmit"
   },
   "dependencies": {
     "@nuxt/kit": "latest",
