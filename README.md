@@ -8,7 +8,7 @@
    
 ## 💡 About
 
-[Remeda](https://remeda.com) auto-import module for [Nuxt](https://nuxtjs.org). Inspired by [nuxt-lodash](https://github.com/cipami/nuxt-lodash.git).
+[Remeda](https://remedajs.com) auto-import module for [Nuxt](https://nuxtjs.org). Inspired by [nuxt-lodash](https://github.com/cipami/nuxt-lodash.git).
 
 ## 📦 Install
 
