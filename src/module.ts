@@ -63,7 +63,7 @@ export default defineNuxtModule<ModuleOptions>({
     alias: [],
     upperAfterPrefix: true
   },
-  setup (options, nuxt) {
+  setup (options) {
     const { resolve } = createResolver(import.meta.url)
 
     const aliasMap = new Map<string, string>(options.alias)
