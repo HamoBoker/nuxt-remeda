@@ -1,7 +1,7 @@
 {
   "name": "nuxt-remeda",
   "version": "1.0.2",
-  "packageManager": "pnpm@10.15.0",
+  "packageManager": "pnpm@10.24.0",
   "description": "Remeda for Nuxt",
   "keywords": [
     "nuxt",
@@ -47,7 +47,7 @@
   },
   "dependencies": {
     "@nuxt/kit": "latest",
-    "remeda": "^2.30.0"
+    "remeda": "^2.32.0"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
@@ -55,7 +55,7 @@
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "eslint": "latest",
-    "nuxt": "^4.0.3",
-    "semantic-release": "^24.2.7"
+    "nuxt": "^4.2.1",
+    "semantic-release": "^25.0.2"
   }
 }
