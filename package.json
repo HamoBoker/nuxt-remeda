@@ -1,7 +1,7 @@
 {
   "name": "nuxt-remeda",
   "version": "1.0.3",
-  "packageManager": "pnpm@10.24.0",
+  "packageManager": "pnpm@10.28.1",
   "description": "Remeda for Nuxt",
   "keywords": [
     "nuxt",
@@ -46,8 +46,10 @@
     "test:types": "vue-tsc --noEmit"
   },
   "dependencies": {
-    "@nuxt/kit": "latest",
-    "remeda": "^2.32.0"
+    "@nuxt/kit": "latest"
+  },
+  "peerDependencies": {
+    "remeda": "^2.33.4"
   },
   "devDependencies": {
     "@nuxt/module-builder": "latest",
@@ -55,7 +57,7 @@
     "@semantic-release/git": "^10.0.1",
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "eslint": "latest",
-    "nuxt": "^4.2.1",
+    "nuxt": "^4.2.2",
     "semantic-release": "^25.0.2"
   }
 }
