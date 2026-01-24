@@ -4,6 +4,9 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
+overrides:
+  conventional-changelog-conventionalcommits: 9.1.0
+
 importers:
 
   .:
@@ -24,6 +27,9 @@ importers:
       '@release-it/conventional-changelog':
         specifier: 10.0.4
         version: 10.0.4(conventional-commits-filter@5.0.0)(conventional-commits-parser@6.2.1)(release-it@19.2.4(@types/node@22.19.7)(magicast@0.5.1))
+      conventional-changelog-conventionalcommits:
+        specifier: 9.1.0
+        version: 9.1.0
       eslint:
         specifier: latest
         version: 9.39.2(jiti@2.6.1)
