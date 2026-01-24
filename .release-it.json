@@ -14,7 +14,7 @@
     "publish": true,
     "private": false,
     "publishPackageManager": "npm",
-    "ignoreVersion": true
+    "ignoreVersion": false
   },
   "plugins": {
     "@release-it/conventional-changelog": {
