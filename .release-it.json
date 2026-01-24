@@ -3,7 +3,7 @@
   "git": {
     "commitMessage": "chore: release v${version}",
     "requireBranch": "main",
-    "requireCleanWorkingDir": false
+    "requireCleanWorkingDir": true
   },
   "github": {
     "release": true,
@@ -13,7 +13,8 @@
   "npm": {
     "publish": true,
     "private": false,
-    "publishPackageManager": "pnpm"
+    "publishPackageManager": "pnpm",
+    "ignoreVersion": true
   },
   "plugins": {
     "@release-it/conventional-changelog": {
