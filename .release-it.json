@@ -16,7 +16,9 @@
   },
   "npm": {
     "publish": true,
-    "private": true
+    "private": true,
+    "publishPackageManager": "pnpm",
+    "ignoreVersion": true
   },
   "plugins": {}
 }

@@ -44,7 +44,7 @@
     "play:prepare": "nuxt-module-build build --stub && nuxi prepare playground && nuxt-module-build prepare",
     "semantic-release": "semantic-release",
     "test:types": "vue-tsc --noEmit",
-    "release": "pnpm dlx release-it@latest --only-version"
+    "release": "pnpm dlx release-it@latest"
   },
   "dependencies": {
     "@nuxt/kit": "latest"
