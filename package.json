@@ -43,7 +43,8 @@
     "play:build": "nuxi build playground",
     "play:prepare": "nuxt-module-build build --stub && nuxi prepare playground && nuxt-module-build prepare",
     "semantic-release": "semantic-release",
-    "test:types": "vue-tsc --noEmit"
+    "test:types": "vue-tsc --noEmit",
+    "release": "pnpm dlx release-it@latest --only-version"
   },
   "dependencies": {
     "@nuxt/kit": "latest"
@@ -58,6 +59,7 @@
     "conventional-changelog-conventionalcommits": "^9.1.0",
     "eslint": "latest",
     "nuxt": "^4.2.2",
+    "release-it": "19.2.4",
     "semantic-release": "^25.0.2"
   }
 }
