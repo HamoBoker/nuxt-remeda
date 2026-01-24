@@ -1,6 +1,6 @@
 {
   "name": "nuxt-remeda",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "packageManager": "pnpm@10.28.1",
   "description": "Remeda for Nuxt",
   "keywords": [
