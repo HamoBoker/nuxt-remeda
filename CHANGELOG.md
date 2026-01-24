@@ -1,4 +1,8 @@
-### Changelog
+# Changelog
+
+## [1.0.7](https://github.com/HamoBoker/nuxt-remeda/compare/v1.0.5...v1.0.7) (2026-01-24)
+
+##
 
 All notable changes to this project will be documented in this file. Dates are displayed in UTC.
 
