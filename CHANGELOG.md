@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.9](https://github.com/HamoBoker/nuxt-remeda/compare/v1.0.8...v1.0.9) (2026-03-27)
+
+### 📦 Chores
+
+* **deps:** update release-it and related dependencies ([dd09b08](https://github.com/HamoBoker/nuxt-remeda/commit/dd09b086420f19c11976c7f342eee2489ea75cae))
+* refresh pnpm-lock.yaml ([7587f7d](https://github.com/HamoBoker/nuxt-remeda/commit/7587f7d81bba476b7e7ba145dc74c817a504c5b8))
+
 ## [1.0.8](https://github.com/HamoBoker/nuxt-remeda/compare/v1.0.7...v1.0.8) (2026-01-24)
 
 ### 📦 Chores
