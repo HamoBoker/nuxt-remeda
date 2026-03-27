@@ -3,6 +3,11 @@ import module from '..'
 export default defineNuxtConfig({
   compatibilityDate: '2025-08-18',
   modules: [module],
+  vite: {
+    optimizeDeps: {
+      include: ['remeda']
+    }
+  },
   remeda: {
     prefix: 'R',
     prefixSkip: ['string'],
