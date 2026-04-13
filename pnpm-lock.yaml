@@ -9,7 +9,7 @@ importers:
   .:
     dependencies:
       remeda:
-        specifier: ^2.33.4
+        specifier: ^2.33.7
         version: 2.33.7
     devDependencies:
       '@nuxt/kit':

@@ -46,7 +46,7 @@
     "release": "pnpm dlx release-it@latest"
   },
   "peerDependencies": {
-    "remeda": "^2.33.4"
+    "remeda": "^2.33.7"
   },
   "devDependencies": {
     "@nuxt/kit": "latest",
