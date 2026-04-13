@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.10](https://github.com/HamoBoker/nuxt-remeda/compare/v1.0.9...v1.0.10) (2026-04-13)
+
+### 📦 Chores
+
+* bump remeda to 2.33.7 ([29a6dd2](https://github.com/HamoBoker/nuxt-remeda/commit/29a6dd2232ae38babbb68144088c2b680d51cd13))
+* update dependencies versions ([5e7ef92](https://github.com/HamoBoker/nuxt-remeda/commit/5e7ef92ae7c229ce6cb70b085a45ad94b8c9a6e7))
+
 ## [1.0.9](https://github.com/HamoBoker/nuxt-remeda/compare/v1.0.8...v1.0.9) (2026-03-27)
 
 ### 📦 Chores
