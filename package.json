@@ -53,7 +53,7 @@
     "@nuxt/module-builder": "latest",
     "@nuxtjs/eslint-config-typescript": "latest",
     "@release-it/conventional-changelog": "10.0.6",
-    "conventional-changelog-conventionalcommits": "9.3.0",
+    "conventional-changelog-conventionalcommits": "9.3.1",
     "eslint": "latest",
     "nuxt": "^4.4.2",
     "release-it": "19.2.4"
